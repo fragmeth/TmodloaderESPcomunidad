@@ -1,0 +1,2283 @@
+UI: {
+	RagnarokIconText: Modo ragnarok activado
+	NoRespawn: Reaparición impedida: ¡Solo una reaparición por jefe en multijugador {0}!
+	NoRespawn2: Reaparición impedida: ¡Solo {0} reapariciones por jefe en el modo multijugador {1}!
+	NoRespawn3: Reaparición impedida: ¡No hay reapariciones durante peleas contra jefes en el modo multijugador {0}!
+	NoRespawn4: Reaparición impedida: ¡No hay reapariciones durante peleas contra jefes en el modo multijugador!
+	NoRespawn5: Reaparición impedida: ¡Solo una reaparición por jefe en multijugador!
+	NoRespawn6: Reaparición impedida: ¡Solo {0} reapariciones por jefe en multijugador!
+	Expert: Modo experto
+	Master: Modo maestro
+	Legendary: Modo legendario
+	Revengence: Modo venganza
+	Death: Modo muerte
+	LDeath: Modo malicia
+	Infernum: Modo infernum
+	MInfernum: Modo ragnarok
+	WarningSouls:
+		'''
+		Advertencia: Fargo's Souls Mod no es compatible con Infernal Eclipse of Ragnarok
+		Activar el modo infernum o el modo ragnarok desactivará el modo eternidad ya que no son compatibles
+		Por favor no reportar ningún error o problema de equilibrio al jugar Fargo's Souls Mod
+		'''
+	WarningForTheWorthyON:
+		'''
+		Advertencia: La semilla For The Worthy no es compatible con Infernal Eclipse of Ragnarok
+		Los modos infernum y ragnarok están desactivados en esta semilla
+		Por favor no reportar ningún error o problema de equilibrio al jugar en esta semilla
+		'''
+	WarningForTheWorthyOFF:
+		'''
+		Advertencia: La semilla For The Worthy no es compatible con Infernal Eclipse of Ragnarok
+		Por favor no reportar ningún error o problema de equilibrio al jugar en esta semilla
+		'''
+}
+
+DifficultyUI: {
+	Name: Ragnarok
+	ShortDescription:
+		'''
+		[c/B32E81:Una versión extrema del modo infernum agregada por Infernal Eclipse of Ragnarok.]
+		[c/B32E81:Este modo no es compatiblecon For the Worthy.]
+		'''
+	ExpandedDescription:
+		'''
+		[c/B32E81:Combina a la perfección el modo muerte y el modo infernum.]
+		[c/B32E81:Las estadísticas base de jefes y enemigos aumentan y el incremento multijugador es mayor]
+		[c/FF0055:¿Podras contra Infernal Eclipse of Ragnarok?]
+		'''
+	Activation: El el eclipse infernal surge... 
+	Deactivation: Otro más se rinde ante este reto
+	MasterToggle: ¡El modo maestro esta activo!
+}
+
+WelcomeMessage: {
+	Welcome: Bienvenido al paquete de mods Infernal Eclipse of Ragnarok!
+	TBRNotice: Notificación: Se ha detectado que tienes activado el mod Thorium Bosses Reworked. Asegúrate de que los multiplicadores de salud, daño y velocidad estén configurados en 1 en la configuración de compatibilidad (a menos que quieras una experiencia más difícil), ya que este mod ajusta automáticamente a los jefes de Thorium según la dificultad actual.
+	TBRWarning: Advertencia: Se ha detectado que no tienes activado el mod Thorium Bosses Reworked. Este mod es muy recomendable, ya que reequilibra las mecánicas de los jefes de Thorium para que se ajusten mejor al modo Infernum y a Calamity en general.
+	RagWarning: Advertencia: Se ha detectado que no tienes Ragnarok activado. Sin este mod, Thorium y Calamity podrían no funcionar correctamente juntos. Se recomienda encarecidamente activar este mod para una experiencia más completa y equilibrada.
+	EventTrophyNotice: Notificación: Se ha detectado que no tienes activado el mod More Trophies and Relics. Sin este mod, es posible que los jefes que no pertenezcan a Vanilla, Calamity o Infernum no tengan la historia de Calamity ni las introducciones de Infernum. Se recomienda encarecidamente activar este mod para una experiencia más completa y equilibrada.
+	SoulsWarning: Advertencia: Fargo's Souls Mod no es compatible con Infernal Eclipse of Ragnarok, tener activos el modo infernum y el modo eternidad puede generar errores
+	OverhaulWarning: Advertencia: Se ha detectado que tienes activo el mod Calamity Overhaul lo cual podría provocar varios errores, por favor desactivelo
+	RemnantsWarning: Advertencia: Se ha detectado que tienes activado el mod Remnants, si genero su mundo con este mod cree otro sin el ya que podría generar problemas con Infernum
+	MasterPatchNotice: Notificación: Se ha detectado que tienes activado el mod Infernum Master Patch, no genera problemas pero es redundante
+	CalMinusNotice: Notificación: Se ha detectado que tienes activado el mod Calamity Minus. Este mod ya incluye todas las funciones de los mods cuando tienes activados los cambios de equilibrio de Calamity en la configuración de Infernal Eclipse of Raganrok.
+	CalBalNotice: Notificación: Se ha detectado que tienes activado el mod Calamity Balance Changes. Este mod ya incluye la mayoría de las características que aparecen en su página de Steam Workshop, mientras que Calamity Balance Changes está activado en la configuración de Infernal Eclipse of Ragnarok. Calamity Balance Changes también añade una serie de cambios no listados que podrían empeorar tu experiencia de juego.
+	InfernumActive: El héroe a vuelto para para enfrentar al eclipse infernal..
+	MPConnect: El héroe vuelva a apoyarnos contra este Eclipse infernal
+	InfernumForced: Una energía infernal cubre poco a poco el mundo
+	RagnarokBalance: Notificación: Para que el equilibrio de las armas sea el previsto, desactive la opción "Ajustes genéricos de armas" en la configuración del mod Ragnarok, ya que de lo contrario los cambios se acumularán y las armas serán mucho más fuertes de lo previsto.
+	RagnarokRework: Notificación: Se ha detectado que tienes activados tanto el mod Ragnarok como Thorium Bosses Reworked. Para disfrutar de la experiencia deseada, activa todas las opciones de jefes en la configuración de jefes de Ragnarok y selecciona Thorium Bosses Reworked.
+	GulaVaultMessage: La bóveda se niega a abrirse. Un mal más poderoso debe ser derrotado primero...
+}
+
+TimeFreezePrevention: {
+	AuricSoul: El alma aurica impide que la incubadora se active...
+	ExoMech: La máquina de Draedon impide que la incubadora se active...
+	Terminus: ¡La luz del terminus impide los efectos de la incubadora!
+	SCal: ¡La bruja disipa los efectos de la incubadora!
+	Primoridal: ¡Las fuerzas primordiales impiden los efectos de la incubadora!
+	HolyFlame: ¡La llama sagrada protege al mundo de los efectos de la incubadora!
+	TerraBlade: ¡Tu reflejo es inmune a los efectos de la incubadora!
+	Other: Los efectos de la incubadora se han impedido!
+}
+
+BossCheesePrevention: {
+	TheDestroyer: No permitiré que destruyas mi maquina tan fácil
+	Plantera: Fuerzas ancestrales impiden que uses este objeto justo ahora...
+	Yharon: Ancient forces prevent you from using this item right now...Fuerzas ancestrales impiden que uses este objeto justo ahora...
+}
+
+ItemTooltip: {
+	BasicDamage: Daño Básico 
+	OmniShield: -Omni Escudo-
+	Playtester: - Objeto de Testeador -
+	Contributor: - Objeto de Contribuidor -
+	SBeamUsage: Mantén pulsado el clic izquierdo para cargar un rayo que inflige daño mágico mítico
+	NBeamUsage: Mantén pulsado el clic izquierdo para liberar un Nebula Gigabam que inflige daño mágico mítico
+	MBeamUsage: Mantén pulsado el clic izquierdo para liberar un rayo Exo Desintegrador que inflige daño a distancia mítico
+	SFlight: Mantener pulsado el botón derecho del ratón otorga un vuelo rápido e ilimitado
+	StarlitForgeExtra: Lo más curioso es que incluso puede duplicar algunos elementos
+	BladecrestNerf: Una fuerza maligna está mermando parte de su poder...
+	EclipseFang: "[IEoR]: Empoderamiento del arma siempre activo"
+	ScytheThrow: Haz clic derecho para lanzar la guadaña, que describirá una curva al regresar
+	ThorsHammerPro: Inflige electrificado por 3 segundos al golpear
+	BountifulHarvest: Fuegos que perforan aguijones en un patrón alterno
+	TwoAlchs: Cuenta como 2 alcoholes para {$Mods.CalamityMod.Buffs.AlcoholPoisoning.DisplayName}
+
+	SoulAnchor: {
+		OrigTooltip1: Auncla tu alma y salud a tu posición actual
+		Replace1: Ancla tu alma y tu salud a tu posición actual durante 20 segundos
+		OrigTooltip2: Haz clic derecho para regresar a tu alma, restaurando la salud a su valor original
+		Replace2: Durante ese período, haz clic derecho para regresar a tu alma, lo que hará que tu salud vuelva a la mitad de su valor original
+		OrigTooltip3: Solo se puede usar una vez cada 5 minutos y te consume el alma al regresar
+		Replace3:
+			'''
+			Al regresar, te consume el alma y te inflige el efecto de la poción.
+           Solo se puede usar una vez cada 5 minutos.
+			'''
+		Player1: Tu ancla de alma se ha desvanecido
+		Player2: Se ha colocado el ancla de alma, tienes 20 segundos para regresar
+	}
+
+	WhiteDwarfSetBonus:
+		'''
+
+		Las llamas de marfil aparecen cada 2 segundos
+		'''
+	PhoenixStaff:
+		'''
+		Haz clic derecho para lanzar un torrente de llamas que infligen 'Mirada Sagrada'
+       Todo el daño infligido a enemigos bajo la mirada sagrada aumenta un 15 %
+		'''
+	HolyGlare:
+		'''
+		Los enemigos alcanzados por la guadaña sufrirán el efecto 'Mirada Sagrada'
+        Todo el daño infligido a los enemigos afectados por la Mirada Sagrada aumenta un 15%
+		'''
+	SandstonePortalDeviceInfo:
+		'''
+		Te transporta al Coliseo Perdido
+        Solo funciona si el portal del altar de la Puerta Perdida está activado
+		'''
+	SandstonePortalDeviceInfoMP: Invoca al Vasallo Desamparado después de que se haya activado el portal en la Puerta Perdida <- actualmente no se usa en la API
+	GoldenBatRework:
+		'''
+		+30% de monedas de los enemigos
+         Generas monedas constantemente con el tiempo
+        'No eres codicioso... ¡estás completamente loco!'
+		'''
+	BloodstainedCoin:
+		'''
+		Los golpes críticos tienen un 50 % de probabilidad de infligir 10 puntos de daño adicionales
+        Recibir daño tiene un 75 % de probabilidad de causar sangrado
+		'''
+	PutridCoin:
+		'''
+		Los golpes críticos tienen un 50 % de probabilidad de infligir 10 puntos de daño adicionales
+        Recibir daño tiene un 75 % de probabilidad de causar sangrado
+		'''
+	Desecar:
+		'''
+		Otorga 1 punto de defensa por cada 8 espacios vacíos en el inventario
+        'Menos es más'
+		'''
+	Stekpla:
+		'''
+		Aumenta la probabilidad de golpe crítico en un 1 % por cada 8 espacios de inventario llenos
+        'Cuanto más, mejor'
+		'''
+	Dasuver: Aumenta la probabilidad critica en 3%
+	SubspaceLocket:
+		'''
+		Invoca a un Sirviente Subespacial para que te ayude en combate
+        Usa el objeto de tu último espacio de inventario
+        Disminuye el daño en un 50% de forma multiplicativa
+        Disminuye el daño cuerpo a cuerpo verdadero en un 15%
+        Aumenta el vacío máximo en 50, pero reduce la curación recibida de las pociones en 40
+		'''
+	EyeOfChaos: Aumenta la probabilidad de golpe crítico en un 12%, no se acumula con las reducciones de estadísticas
+	EyeOfChaosThorium: Los golpes críticos infligen 15 puntos de daño adicionales
+	SnakeEyes: Aumenta la probabilidad critica en 3%
+	ChaosBadge: Aumenta la probabilidad critica en 5%
+	FocusReticle:
+		'''
+		Aumenta la probabilidad de golpe crítico en un 15%, no se acumula con desventajas
+        Los golpes críticos infligen 40 puntos de daño adicionales
+       Inmunidad a los efectos negativos de sangrado y envenenamiento
+		'''
+	Starbelt:
+		'''
+		Los golpes críticos recuperan mana
+		Incrementa el mana máximo en 40
+		Aumenta la probabilidad critica mágica en 5%
+		'''
+	GlowSpores:
+		'''
+		Incrementa la recuperación de mana por poción en 40
+		Aumenta la probabilidad critica mágica en 2%
+		'''
+	SwallowedPenny:
+		'''
+		Aumenta la probabilidad critica mágica en 2%
+		Generas monedas al dañarte
+		'Gulp!'
+		'''
+	SpiritGlove: Aumenta la regeneracion de vacío en 5% y la probabilidad critica cuerpo a cuerpo en 4%
+	DiamondRingText: Aumenta el daño en función de la defensa, luego disminuye la defensa en dos tercios de la bonificación de daño
+	EarthDrive: El aumento máximo a la velocidad cuerpo a cuerpo es del 10%
+	SyntheticLiver:
+		'''
+		Aumenta el vacío recibido de los alimentos en un 25%
+		Recibir el mismo beneficio varias veces aumentará la duración del beneficio en lugar de reiniciarlo, hasta duplicar la duración original
+		'''
+	MutantSkeletron: "[IEoR] Este objeto no se puede usar hasta que Skeletron haya sido derrotado al menos una vez. Usa el objeto de aparición de Infernum en su lugar"
+	VibePotion: Aumenta la velocidad de ataque un 10% cuando no te mueves y un 5% cuando te mueves
+	BloodPotion: Aumenta la velocidad de minería en 15%
+	FrenzyPotion: Aumenta la velocidad de ataque en 5%
+	FlowerCrown:
+		'''
+		Reduce el daño recibido en 10
+		Aumenta la ganancia de vacío en 4 y la regeneracion de vida en 2
+		El 30% del vacío usado se convierte en vida
+		'''
+	TravelBoot:
+		'''
+		Aumenta la velocidad de movimiento en 5%
+		Aumenta la aceleración al correr en 2%
+		'''
+
+	Nightmare: {
+		Orig: Los golpes críticos desatan Brazos Pesadilla que infligen un 10% de daño y agrupan a los enemigos
+		Rework:
+			'''
+			Los golpes críticos desatan Brazos Pesadilla que infligen un 5% de daño y agrupan a los enemigos
+			El daño mejora un 10% en el modo difícil y los jefes no serán atraídos
+			'''
+	}
+
+	Disabled: "[DISABLED] "
+	DedTo: - Dedicado por {0} -
+
+	Dedicated: {
+		Akira: Akira
+		WH: WardrobeHummus
+		Advantaje: Advantaje
+		Tyr: Tyr
+		Soltan: Soltan
+		bryce: bryce27
+		eviil81: evil81
+		rose: rosé
+		Jill: JillyFish
+		Eduarrdo: Eduarrdo
+		Mae: ma3allim
+		Yob: Yob
+		Pudding: Pudd1ng
+		Ropro: Ropro0923
+		cheese: cheesenuggets
+		Puzzles: Mr. Puzzles
+		cat: StarlightCat
+	}
+
+	MergedCraftingTreeTooltip: {
+		Gilded: Efectos de las Alas de Hoja Dorada
+		TPS:
+			'''
+			Permite volar, correr a gran velocidad y mayor movilidad sobre el hielo
+			Aumento del 12% en la velocidad de movimiento
+			Otorga la capacidad de caminar sobre el agua, la miel y la lava
+			Otorga inmunidad a los bloques de fuego y a la lava
+			'''
+		Hellfire:
+			'''
+			Multiplica por 1,5 todo el daño de desventajas basadas en fuego, no se acumula con las reducciones de estadísticas
+			Todos los ataques infligen fuego infernal
+			'''
+
+		BagOfAmmoConsume: {
+			ElementalQuiver: Otorga un 20% de probabilidad de no consumir flechas
+			ReplaceTooltip: Otorga un 20% de probabilidad de no consumir munición
+		}
+
+		BagOfAmmoOther:
+			'''
+			Atacar a los enemigos tiene la posibilidad de recuperar munición
+			Al asestar el golpe final a los enemigos, también se puede recuperar munición
+			'''
+		InfintyBag: Si la visibilidad de los accesorios está activada, consumes vacío en lugar de munición
+		SerpentsTongue:
+			'''
+			Aumenta el daño radiante en 15%
+			Aumenta el daño crítico en 10%
+			Los enemigos tienen un 10% de probabilidad de soltar el doble de botín
+			20% cuando muere por golpes críticos
+			Potencia ciertos ataques con energía oscura
+			Reduce a la mitad los costos de vida radiante, pero no su efecto de transferencia de vida
+			Reduce a la mitad el coste de vacío de las armas radiantes de vacío y los hechizos de curación
+			La esencia del alma de las guadañas radiantes también recuperará algo de vacío
+			La esencia del alma de las guadañas radiantes del vacío recupera aún más vacío
+			'''
+
+		SealedContract: {
+			OrigTooltip1: La vida máxima aumenta en 60
+			OrigTooltip2: Los hechizos de curación otorgan 5 puntos de vida adicionales
+		}
+
+		ContractNerf: Los hechizos de curación otorgan 2 puntos de vida adicionales
+		Tuner1:
+			'''
+			Los efectos de esto se basan en la visibilidad de los accesorios
+			Si la visibilidad está activada, se aplican los siguientes efectos:
+			Añade toda la inspiración al vacío máximo
+			Todas las armas de bardo usan vacío en lugar de inspiración
+			Las bonificaciones de regeneración de inspiración se convierten en velocidad de regeneración del vacío
+			Recoger notas de inspiración sana el vacío en su lugar
+			Sin embargo, las notas de inspiración ya no otorgan sus efectos relacionados con la armadura
+			Las mejoras que aumentan los recursos son mucho más fuertes en las estadísticas del vacío
+			De lo contrario:
+			Recoger notas de inspiración cura el vacío cuando se empuña un arma de bardo del vacío
+			Cuando te quedes sin inspiración, consume 25 de vacío para recargarla por completo
+			Además, los siguientes efectos están siempre activos:
+			Todas las armas de bardo crean una onda expansiva al golpear a los enemigos
+			Los ataques con instrumentos de cuerda activan sus efectos de impacto de ficha en los golpes enemigos
+			Los proyectiles de instrumentos de cuerda aumentan su velocidad en un 20% con cada perforación
+			Los ataques con instrumentos de percusión invocan un martillo que cae al golpear al enemigo
+			Los proyectiles de instrumentos electrónicos son significativamente mucho más rápidos
+			'''
+		Tuner2:
+			'''
+			Los efectos de esto se basan en la visibilidad de los accesorios
+			Si la visibilidad está activada, se aplican los siguientes efectos:
+			Añade toda la inspiración al vacío máximo
+			Todas las armas de bardo usan vacío en lugar de inspiración
+			Las bonificaciones de regeneración de inspiración se convierten en velocidad de regeneración del vacío
+			Recoger notas de inspiración sana el vacío en su lugar
+			Sin embargo, las notas de inspiración ya no otorgan sus efectos relacionados con la armadura
+			Las mejoras que aumentan los recursos son mucho más fuertes en las estadísticas del vacío
+			De lo contrario:
+			Recoger notas de inspiración cura el vacío cuando se empuña un arma de bardo del vacío
+			Cuando te quedes sin inspiración, consume 25 de vacío para recargarla por completo
+			'''
+		HypersonicTooltip: '''"¡Canaliza el poder de los sonidos que van más allá del rango auditivo!"'''
+		4DTooltip: '''"Sonido capaz de crear agujeros de gusano a otros mundos"'''
+		CrystalScorpian:
+			'''
+			Los ataques de los esbirros tienen un 15% de probabilidad de producir un escorpión de cristal
+			Los ataques de los esbirros infligen 3 puntos de daño adicionales mientras un escorpión de cristal esté activo
+			'''
+		Skull: Los ataques de los esbirros y los centinelas infligen brevemente 2 puntos de daño adicionales después de matar a un enemigo
+		CyanPearl: Reduce a la mitad la penalización por citación de centinelas
+		Watch: Tus centinelas duran para siempre y ganan hasta un 15% de daño en el transcurso de 2 minutos
+
+		FortressGenerator: {
+			OrigTooltip1: Aumenta el daño en un 10% y la regeneración de vida en 2
+			Replace: Aumenta el daño de invocación en un 10%
+			OrigTooltip2: Absorbe el 25% del daño infligido a los jugadores de tu equipo cuando tienen más del 25% de vida y otorga inmunidad al retroceso
+		}
+
+		Fortress:
+			'''
+			Genera 4 plataformas a tu izquierda y derecha
+			Puedes hacer clic con el botón derecho para arrastrar las plataformas, pero siempre permanecerán simétricas
+			Se pueden invocar centinelas en la parte superior de las plataformas
+			'''
+		FortressNoThor:
+			'''
+			Aumenta la regeneración de la vida en 2
+			Genera 4 plataformas a tu izquierda y derecha
+			Puedes hacer clic con el botón derecho para arrastrar las plataformas, pero siempre permanecerán simétricas
+			Se pueden invocar centinelas en la parte superior de las plataformas
+			'''
+		TwoSentry: Aumenta el número máximo de centinelas en 2
+		ThreeSentry: Aumenta el número máximo de centinelas en 3
+		Murky: Cada sexto lanzamiento mágico es gratuito y te otorga el coste de mana
+		Hungering: Otorga los efectos de la Flor Hambrienta cuando la visibilidad está desactivada
+		SlagsplitterCooldown: Este efecto tiene un tiempo de reutilización de 1,5 segundos
+		Grace:
+			'''
+			Tus reapariciones son un 33 % más rápidas y te dan un 15 % más de salud
+			Tus reapariciones también te otorgan mayor tiempo de invulnerabilidad y velocidad de movimiento
+			'''
+		ChiseledBarrier:
+			'''
+			Te rodea con 4 proyectiles orbitales
+			Lanza a los atacantes lejos de ti con jabalinas
+			'''
+		ChiseledHidden: Proyectiles desactivados cuando están ocultos
+		Olympian:
+			'''
+			Aumenta la ganancia de vacío en 2 y la regeneración de vida en 1
+			Reduce el daño recibido en un 7% y aumenta la probabilidad de golpe crítico en un 4%
+			'''
+		Sweet1: Aumenta la velocidad de movimiento y cuando está dañado
+		Sweet2: Hace que aparezcan abejas y rocía al usuario con miel cuando se daña
+		SweetAlt: Hace que aparezcan abejas y estrellas y rocía al usuario con miel cuando se daña
+		COTS:
+			'''
+			Obtendrás rápidamente hasta un 15% de reducción de daño con el tiempo 
+			Recibir un golpe brevemente reduce esta bonificación a -10% de reducción de daño
+			Mientras esta bonificación sea superior al 0%, obtendrás hasta 2 puntos de recuperación de vida
+			'''
+		DA:
+			'''
+			Otorga fotogramas de invencibilidad adicionales en función de la salud que te falte
+			Este efecto varía de 10 fotogramas con la salud al máximo a 40 fotogramas con un 25 % o menos de salud
+			'''
+		Mantle: Elimina hasta un efecto negativo dañino de ti cada 10 segundos
+		TerraDefend: Cuando tu vida esté por debajo del 25%, regenerarás vida rápidamente y obtendrás mayor defensa
+
+		TerrariumDefender: {
+			lifeUP: La vida útil máxima aumentó en 20
+			invincibility: Prolonga la invencibilidad tras ser golpeado
+			immunity: Otorga inmunidad a la mayoría de los estados alterados, al retroceso y a los bloqueos de fuego
+		}
+
+		ScytheScale: Aumenta su fuerza hasta la caída del Devorador
+		ScytheSummon: Tiene daño reducido si hay alguna invocación activa
+		ScytheSummonOn: El daño se reduce mientras las invocaciones están activas
+		OneirophobiaSummon: Mantén pulsado el clic derecho para invocar al Instrumento Lúcido para que luche por ti
+		SoulEssence: Gana esencia del alma rápidamente
+		Magneto: Aumenta el rango de recogida de objetos sueltos en el suelo
+		Bone:
+			'''
+			Recoger un objeto de pícaro tiene un 33% de probabilidad de duplicarlo y aumentar la velocidad de ataque de tu pícaro
+			Este efecto solo puede activarse una vez cada medio segundo mientras estés fuera de combate
+			'''
+		Scuttler: Los proyectiles de ataque sigiloso generan una púa de joya al ser destruidos
+		BloodyFilthy: Los ataques sigilosos tienen +8 de penetración de armadura, infligen un 8% más de daño y curan 2 puntos de vida
+		NoExhaustion: Elimina todo el agotamiento cuando está equipado
+
+		ToothNecklace: {
+			SandShark: {
+				OrigTooltip: Aumenta la penetración de la armadura en 10
+				CommonReplace: Aumenta la penetración de la armadura en 12
+				SOTSReplace: Aumenta la penetración de armadura en 12, la probabilidad de golpe crítico en un 5% y la vida máxima en 40
+				ThoriumReplace: Aumenta la penetración de la armadura en 12
+			}
+
+			Prismarine: {
+				OrigTooltip: Aumenta la penetración de armadura en 8 y la vida máxima en 20
+				CommonReplace: Aumenta la penetración de armadura en 5 y la vida máxima en 20
+			}
+
+			Reaper: {
+				OrigTooltip: Aumenta la penetración de la armadura en 15
+				SOTSReplace: Aumenta la penetración de armadura en 15, la probabilidad de golpe crítico en un 5% y la vida máxima en 40
+			}
+		}
+
+		Prisma: Libera periódicamente oleadas de daño que ignoran hasta 16 puntos de defensa totales
+		Prisma2: Libera más ondas en un estado de salud más bajo
+		Prisma3: Ondas desactivadas cuando están ocultas
+		Midnight1: Los golpes críticos desatan Brazos Pesadilla que infligen un 10% de daño y agrupan a los enemigos
+		Midnight2: Tiene un tiempo de reutilización de 6 segundos
+
+		lifeQuartzShield: {
+			CommoTooltip: Aumenta la velocidad a la que regeneras vida
+			Under25HP1:
+				'''
+				Recibir daño por debajo del 25% de vida te rodea en una burbuja protectora
+				Mientras estés en la burbuja, recuperarás vida equivalente a tu curación adicional cada segundo
+				'''
+			Under25HP2:
+				'''
+				Además, los daños sufridos se reducirán en un 10%
+				Este efecto necesita recargarse durante 30 segundos después de activarse
+				'''
+		}
+
+		SHS:
+			'''
+			Al recibir un impacto, te rodeas de fragmentos de hielo
+			Aumenta la vida máxima en 20
+			'''
+		MoltenScale: Los enemigos cercanos se desvanecerán
+		PlasmaGen:
+			'''
+			Genera una barrera de fuego que quema los proyectiles hostiles entrantes
+			Después de quemar un proyectil, el escudo debe regenerarse durante 10 segundos
+			Mientras esté por debajo del 25% de vida, el escudo se genera el doble de rápido
+			'''
+
+		Omni: {
+			OrigTooltip: 15% de aumento en el daño sinfónico, la velocidad de reproducción y la probabilidad de golpe crítico
+			Replace:
+				'''
+				15% de aumento en el daño sinfónico
+				Aumento del 8% en la velocidad de juego, la probabilidad de golpe crítico y la tasa de regeneración de inspiración
+				'''
+		}
+
+		OmniIns: Aumentar la inspiración máxima en 5
+		OmniEmp: Cada mejora única que tengas aumenta la velocidad de movimiento en un 2 % y la velocidad de juego en un 1 %
+		ShinobiNerf: Este efecto tiene un tiempo de reutilización de 2 segundos
+		ShinobiEffect:
+			'''
+			6% de aumento en la probabilidad de realizar un golpe crítico al lanzar
+			Si se asestan dos golpes críticos de lanzamiento consecutivos, se descargará un rayo oscuro y aumentará brevemente la velocidad de lanzamiento
+			Este efecto tiene un tiempo de reutilización de 2 segundos
+			'''
+		CloverNerf: El robo de vida y la regeneración de inspiración tienen un tiempo de reutilización de 1 segundo
+		CloverNerf2: El robo de vida tiene un tiempo de reutilización de 1 segundo
+		RingofRestNerf: La regeneración de inspiración tiene un tiempo de reutilización de 1 segundo
+
+		SpiritInsignia: {
+			Effect:
+				'''
+				Aumenta la ganancia de vacío en 1 y la velocidad de regeneración de vacío en un 25%
+				Duplica el daño infligido a enemigos que no sean espíritus de Lux
+				'''
+			OrigTooltip: Otorga vuelo infinito con alas y botas cohete
+			Replace: Aumenta el tiempo de vuelo de las alas en un 25%
+		}
+
+		AscendantInsignia:
+			'''
+			Aumenta la velocidad de movimiento y salto en un 10 % y la aceleración en 1,1x
+			Al pulsar la tecla de acceso directo de la Insignia Ascendente, obtendrás el poder de la ascensión, que te proporcionará tiempo de vuelo infinito durante 4 segundos
+			Ascensión tiene un tiempo de reutilización de 40 segundos
+			'''
+		GildedVoid: Aumenta el drenaje de vacío en 3 mientras está activo
+		CalSoaringNerf: "[Calamity]: Ya no permite el vuelo infinito"
+		MonsterCharm: Durante el combate, la penetración de tu armadura, tu defensa y tu recuperación de vida aumentan con el tiempo
+		GreedierRing:
+			'''
+			Aumenta la velocidad de minería en un 5 % y la probabilidad de golpe crítico en un 5 %
+			Genera monedas cuando recibas daño o cuando ganes vacío y no pierdas monedas al morir
+			Al minar bloques existe la posibilidad de obtener recursos adicionales, como monedas y slime
+			'''
+		AlchemistCharm:
+			'''
+			Aumenta la curación y el maná recibido de las pociones en 100
+			Aumenta la duración de los efectos beneficiosos en un 67%
+			'''
+		SubspaceBoostersDash: Pulsa {0} mientras estés en el suelo para impulsarte hacia adelante, lo que te otorgará mayor velocidad y aceleración
+		SubspaceBoosters:
+			'''
+			Proporciona una tremenda aceleración durante la carrera
+			También proporciona vuelo y mayor movilidad sobre hielo
+			Aumenta enormemente la velocidad de movimiento
+			Proporciona la capacidad de caminar sobre el agua y la lava
+			Otorga inmunidad a los bloques de fuego y 10 segundos de inmunidad a la lava
+			Pulsa {0} mientras estés en el suelo para impulsarte hacia adelante, lo que te otorgará mayor velocidad y aceleración
+			'''
+
+		MaskoftheCrystalEye: {
+			Thorium:
+				'''
+				8% de aumento en la probabilidad de golpe crítico
+				15% de aumento en el daño por golpe crítico
+				'''
+			SOTS:
+				'''
+				8% de aumento en la probabilidad de golpe crítico
+				Los golpes críticos infligen 15 puntos de daño adicionales
+				'''
+		}
+	}
+
+	AmmoConversion: {
+		FrostFury: Convierte las flechas de madera en flechas de fuego gélido
+		StreamSting: Convierte flechas de madera en flechas de hueso
+		CometCrossfire: Convierte flechas de madera en flechas de bufón
+		Steel: Convierte flechas de madera en flechas de acero
+		SandStone: Convierte flechas de madera en flechas Talon
+		Durasteel: Convierte flechas de madera en flechas de acero duradero
+		Trigun: Convierte balas de mosquete en proyectiles de punta hueca
+		Mycelium: Fuegos de ráfagas de micelio
+	}
+
+	WingInfo: {
+		5: También aumenta la regeneración de vida en 5
+		10: También aumenta la regeneración de vida en 10 FasterIvory: Permite que las llamaradas de marfil se activen el doble de rápido mientras se usa la armadura de White Dwarf
+		GelDash: Permite la capacidad de correr y mejora otras carreras
+	}
+
+	MythicTooltips: {
+		Base: -{0} Arma distintiva-
+		Argus: Argos'
+		Your: Su'
+		Draedon: De Draedon
+		Solyn: De Solyn
+		Anahita: De Anahita
+		Amidias: Amidias'
+		CalClone: Sombra de Calamitas'
+		Cultist: De el cultista lunático
+		ND: De la deidad
+		Mars: Mars'
+		EoL: De la emperatriz de la luz
+	}
+
+	AstrageldonRelic: {
+		Line1: Has elegido un gran sufrimiento para ti mismo,
+		Line2: Aunque esta elección ha sido dolorosa y difícil en ocasiones,
+		Line3: La adversidad que superes dará frutos valiosos
+	}
+
+	AvatarRelic:
+		'''
+		Lo has hecho bien
+		Ahora, dirígete al punto final. Tu prueba final está cerca
+		'''
+	GoozmaRelic:
+		'''
+		Es gracioso, ¿verdad?
+		Aunque hayas vencido al juego del infierno, sigues desafiando a seres superiores...
+		Un día, esta suerte se acabará
+		'''
+	NamelessRelic: Has superado la prueba
+	NoxusRelic: ¿Obtuviste este objeto mediante trampas o realmente tienes instalado mi mod súper raro que ya no está en la Workshop? En cualquier caso, ¡felicidades!
+	DeviRelic:
+		'''
+		El menor de los tres hermanos
+		Fue bastante caótico, sobre todo al principio del juego, pero la superaste con confianza
+		Aprovecha las mejoras de botín y el aumento de poder mientras puedas...
+		'''
+	AbomRelic:
+		'''
+		El segundo de los tres hermanos
+		Ha pasado un tiempo desde que luchaste contra su hermana, pero esta batalla fue un salto cualitativo enorme con respecto a aquello
+		¿Eres lo suficientemente valiente como para desafiar al hermano mayor?
+		'''
+	MutantRelic:
+		'''
+		El mayor de los tres hermanos, además de ser el más fuerte
+		Has vencido a uno de los jefes modificados más difíciles, y con toda la eternidad en tus manos, seguramente nada te detendrá ahora
+		¿Qué buscarás ahora?
+		'''
+	EridanusRelic:
+		'''
+		Ya casi llegas a la meta
+		El ejército del buscador de dioses es lo único que se interpone entre tú y la eternidad
+		Sácale el máximo partido a tu nuevo espacio de trabajo...
+		'''
+	AstralCommunicatorInfernum1: Invoca a Astrageldon en la Infección Astral
+	AstralCommunicatorInfernum2: El limo interdimensional todavía tiene hambre...
+}
+
+Lore: {
+	Abom:
+		'''
+		El hijo del medio de los hermanos eternos, y una de las personas más perezosas que he visto en mi vida.
+		Si bien el Abominationn tiene la capacidad de controlar completamente el clima y rechazar por completo a los invasores, 
+		es realmente muy perezoso, hasta el punto de fusionar sus armas a sus manos
+		Su arma tiene la capacidad de dividir el alma misma y de utilizar todos los fenómenos sobrenaturales
+		Menos mal que decidió no usar ningún ataque celestial por respeto al Mutante, de lo contrario tu victoria podría no haber sido posible
+		'''
+	Devi:
+		'''
+		El menor de los hermanos eternos, y también el más débil
+		A lo largo de su viaje, ha coleccionado un montón de objetos raros de monstruos y, cuando está de humor para ayudar, los vende a otros
+		Sin embargo, cuando no está de humor para ayudar, expresa plenamente su sadismo enamorado
+		El Deviantt tiene la capacidad de lanzar hechizos utilizando tanto la luz primordial como el amor puro, todo ello mientras empuña un hacha viviente hecha de maldad
+		Aunque la venciste en combate, parece no temer a la muerte, y esta es la primera vez que la veo darlo todo en una pelea
+		'''
+	Mutant:
+		'''
+		El mayor y más fuerte de los hermanos eternos
+		Si bien sus otros hermanos llaman al Mutante su hermano, él se niega personalmente a confirmar su género
+		Él es el guardián de la eternidad, con el poder supremo encarnado, y se cree que proviene de otro mundo más allá de esa grieta dimensional
+		Aparte de ti, él es el ser más fuerte que jamás haya pisado la tierra de Terraria, con dominio absoluto sobre todos los aspectos del combate
+		A pesar de todo ese poder, siempre estuvo más interesado en observar las batallas de otros en el mundo que en participar él mismo en alguna
+		Siempre decía que buscaba a alguien fuerte, y parece que por fin ha encontrado a la persona que buscaba
+		'''
+	DylanLore:
+		'''
+		Mmm... me sorprende que siquiera conozcas a esa persona
+		La primera vez que lo encontramos pensamos que era un dios... sin embargo, resulta que en realidad no tenía un alma áurica
+		Lo acogimos y nos enseñó a fabricar poderosos equipos y bombas imbuidas de elementos que no eran simplemente de acero
+		Sus ideas habían contribuido a aumentar considerablemente el poder de mi ejército, pero él mismo nunca luchó
+
+		Un día fui a su habitación, pero no había nada excepto una nota
+		No pudimos traducir su escritura, pero por las imágenes parecía ser una especie de anillo,
+		uno de los ingredientes clave parece ser un "Anillo de Sol Oscuro"
+		Quizás esa "Guía" podría ayudarte a descifrar mejor esta nota
+		De todos modos, estoy seguro de que encontrarás la manera de hacerlo
+
+		–¡Estad atentos al futuro de Infernal Eclipse of Ragnarok!–
+		'''
+	DylanSoltan:
+		'''
+		Quien lea esta nota, tenga en cuenta lo siguiente:
+		Preveo que en el futuro surgirá una persona llamada Soltan
+		Muchos pensarán que es molesto, así que diseñé esta nota digital para que les sea útil
+		Para combatir su naturaleza molesta, el microchip adjunto a esta nota convertirá todo
+		invocar poder local para convertirlo en poder de otras fuentes
+		Además, te da permiso total para acosar a Soltan
+		Solo he fabricado dos de estos, y se los he entregado a los dos seres más poderosos que pude encontrar
+		Si eres una de esas personas, o alguien más, usa este dispositivo con prudencia...
+		'''
+	MysteriousDiary:
+		'''
+		Al pasar a la página uno, no se ve nada excepto unas pocas palabras
+
+		“¿Quién demonios soy yo para seguir viviendo?”
+
+		El resto de las páginas están en blanco...
+
+		[c/E3AF40:El libro tiene un aire de otro mundo... tal vez haya algo más grande que Yharim o incluso que la deidad]
+
+		–¡Estad atentos al futuro de Infernal Eclipse of Ragnarok!-
+		'''
+	Provi:
+		'''
+		Una vez soñé con la paz. No sé por qué
+		Desde que recibí la noticia de que había algo más allá de este mundo,
+		He sentido la presencia de esa mujer en nuestro mundo de vez en cuando
+		¿Y qué quería Thorne de ella? Quién sabe
+		Pero ahora todo el poder está en tus manos, Terrariano
+		'''
+	Mirror:
+		'''
+		Me quedé mirándolo fijamente durante un buen rato, pero como en cualquier otro espejo, solo me veía a mí mismo
+		Pero incluso entonces, algo se sentía... diferente. Se sentía mal, casi... retorcido
+		Lo ignoré. Pero incluso ahora, puedo sentir la mirada penetrante de mi reflejo... que me atravesaba el cráneo
+		Una vez que has llegado tan lejos, la parte más difícil de tu viaje es enfrentarte a ti mismo
+		'''
+	Subspace:
+		'''
+		Allí se encuentran relatos de misteriosos seres con forma de serpiente que vagan por la multiplicidad entre dimensiones
+		Muchos dicen que son demasiado peligrosos para enfrentarlos solos,
+		y que podrían matar a cualquiera en un instante con la energía del vacío que poseen
+		Este, sin embargo... es claramente infantil
+		'''
+	Polaris:
+		'''
+		Cuando incorporé a Draedon a mi ejército, inmediatamente comenzó a trabajar en un supuesto "proyecto secreto" sobre el que se negó a dar detalles
+		Poco después, presentó su primera y macabra máquina de la muerte
+		Sabía que era apto para mi ejército; sin embargo, la destreza que demostró fue... prometedora. Sin duda
+		'''
+	Putrid:
+		'''
+		Un experimento fallido, al parecer
+		Tiene cierta predilección por los cacahuetes que crecen en la superficie, aunque se desconoce el motivo
+		No se acerca ni de lejos a la fuerza de algunas de las otras amenazas gelatinosas de este mundo,
+		pero seguía siendo formidable a pesar de todo
+		'''
+	Lux:
+		'''
+		Si bien el Santuario cuenta con muchos protectores, los espíritus del caos no tienen rival
+		Ninguno de ellos había sido debilitado lo suficiente como para ser utilizado de forma inteligente,
+		y Draedon acabó metiéndolos en estructuras con el único propósito de contenerlos
+		Teniendo esto en cuenta, resulta extraño que el coleccionista volviera a absorber lo que quedaba de su energía tras su derrota
+		Qué pintoresco
+		'''
+	Pharoah:
+		'''
+		El producto de otra locura más, fruto de la codicia por la divinidad
+		El menor de los hermanos reales, heredero al trono del oasis
+		Aunque, a diferencia de su maldito y vil hermano mayor, su corazón era puro, aun así le esperaba un destino triste
+		La intromisión de las almas había envenenado su cripta, convirtiéndola en una plaga y sumiéndolo en un profundo y doloroso sueño
+		Sus seguidores y ayudantes reales intentaron salvarlo, pero ya era demasiado tarde
+		Intenta guardar luto tras esta victoria. Era demasiado joven para sufrir las consecuencias de su linaje
+		'''
+	Advisor:
+		'''
+		A diferencia de la mayoría de las criaturas, desconozco a este "Asesor" y sus orígenes
+		Sin embargo, parecía estar muy en sintonía con la energía del vacío que yace en las profundidades de la corteza de Terraria
+		¿Y quién lo encadenó al Planetario? No sabría decírtelo
+		Tal vez puedas encontrar las respuestas a ese secreto en el coleccionista que absorbió su esencia tras su derrota
+		'''
+	Glowmoth:
+		'''
+		Esta criatura parecida a una polilla es interesante, ya que habita en las mismas cuevas luminosas e infestadas de hongos que otra bestia similar
+		Parece emitir una especie de brillo bioluminiscente, que recuerda al vacío...
+		¿Quizás reside en estas cuevas por su energía latente del vacío?
+		Sea cual sea el caso, me resulta incomprensible
+		'''
+	Mjolnir:
+		'''
+		Thor, uno de los muchos dioses que habían logrado eludir mi cruzada,
+		Sin embargo, jamás olvidará lo que le hice a él y a su familia
+		Asgard no era más que una tierra de pecadores, así que simplemente hice lo que ellos les habían hecho a tantos otros
+		Thor se me había escapado y yo creía que aún gobernaba Asgard hasta el día de hoy,
+		pero con su martillo en tus manos, tal vez ya no exista
+		'''
+	Ragnarok:
+		'''
+		Qué curioso
+		El Ragnarok, el legendario fin de los tiempos, era un ser más que un acontecimiento
+		Había buscado por todo el mundo cómo empezar, para poder destruir Asgard,
+		Pero al final, no encontré nada
+		Los relatos de serpientes y fuego estaban lejos de la verdad,
+		Pero ahora Ragnarok yace en ruinas, al igual que la propia Asgard
+
+		Ahora se te considera el héroe de esta tierra,
+		Yyque encuentres la paz en la nueva era que has creado
+		Sin embargo, ten cuidado, porque con cada final llega un nuevo comienzo...
+		[c/7C0A02:No tientes más a la suerte, Terrariano]
+		'''
+	Primordials:
+		'''
+		Antes de que se formara el mundo, solo existían los Primordiales
+		Cada uno de ellos representa un aspecto de este mundo y lo protege del Ragnarok
+		Durante mi guerra, quise matarlos pensando que eran simplemente pecadores como los otros dioses,
+		sin embargo, por mucho que lo intenté, no conseguí captar su atención
+		¿Acaso no merecía su atención a pesar de todo lo que había hecho por el mundo?
+		No me digas que piensan que soy una mota de polvo en la historia de este mundo comparado contigo...
+		'''
+	ThunderBird:
+		'''
+		Estas aves fueron en su día adversarios formidables y temibles, enemigos dignos de ser cazados
+		Sus plumas podrían canalizar la energía latente del sol para convertirla en potentes relámpagos, de ahí su nombre
+		Sin embargo, estas grandes batallas fueron efímeras; y pronto, 
+        por selección generacional, perdieron la mayor parte de su fuerza
+		El que venciste no es más que un enano dócil en comparación con lo que yo había visto una vez,
+		Sin embargo, el título de Gran Pájaro del Trueno perdurará para siempre
+		'''
+}
+
+LegendaryTooltip.Base: Esta arma puede aumentar su poder a medida que derrotes a enemigos difíciles
+
+Items: {
+	SandstonePortalDevice: {
+		DisplayName: Dispositivo de portal de arenisca
+		Tooltip: ""
+	}
+
+	ChromaticMassInABottle: {
+		Tooltip: "'Aunque KrogNar tramaba algo, Aaron simplemente no podía ignorar la presencia de esa energía'"
+		DisplayName: Masa cromática en una botella
+	}
+
+	Swordofthe14thGlitch: {
+		DisplayName: Espada del Cenit
+		Tooltip:
+			'''
+			Haz clic derecho para correr hacia el cursor, realizando un ataque giratorio al final de la carrera que genera múltiples rayos de espada teledirigidos
+			La decimocuarta forma del Cristal del Fallo, empuñada por Zane Guritchi
+			'''
+	}
+
+	BossRushTier6MusicBox: {
+		Tooltip: Reproduce 'Descent Of Divinities' de psykomatic
+		DisplayName: Caja de música (Boss Rush - Nivel 6)
+	}
+
+	NovaBomb: {
+		DisplayName: Bomba Nova
+		Tooltip:
+			'''
+			Canaliza algunas de las fuerzas más misteriosas del Viajero y desátalas en un ataque explosivo de gran área de efecto
+			Haz clic derecho para colapsar el agujero negro antes de tiempo
+			'No te preocupes, Willow, puedo hacerlo yo solo'
+			'''
+	}
+
+	BossRushTierNamelessMusicBox: {
+		Tooltip: Reproduce 'TWISTED GARDEN [Remix]' de Kuudray
+		DisplayName: Caja de música (Boss Rush - Nivel ???)
+	}
+
+	BossRushEncoreMusicBox: {
+		Tooltip: Reproduce 'Ensemble of Fools (Encore Mix)' de CDMusic
+		DisplayName: Caja de música (Boss Rush - Bis)
+	}
+
+	StellarSabre: {
+		DisplayName: Sable estelar
+		Tooltip: ""
+
+		Progression: {
+			WoF:
+				'''
+				Derrota al guardián del Infierno para obtener más poder...
+				No se ha obtenido potencia adicional...
+				'''
+			Mechs:
+				'''
+				Con la derrota del Muro de Carne, esta espada ahora dispara estrellas adicionales
+				Derrota a las bestias mecánicas para obtener más poder...
+				'''
+			Plantera:
+				'''
+				Tras la derrota de las máquinas de Draedon, ahora inflige Infección Astral
+				Derrota al guardián de la jungla para obtener más poder...
+				'''
+			Golem:
+				'''
+				Con la derrota de Plantera, las estrellas ahora están divididas en cuanto al impacto
+				Derrota la construcción del Templo de Lizhard para obtener más poder...
+				'''
+			Cultist:
+				'''
+				Tras la derrota de Golem, las estrellas se dirigen hacia los enemigos
+				Las estrellas se separarán después de algún tiempo
+				Derrota al líder del antiguo culto para obtener más poder...
+				'''
+			MoonLord:
+				'''
+				Tras la derrota del Cultista Lunático, las estrellas explotan después de un tiempo
+				Derrota al cadáver arcano para obtener más poder...
+				'''
+			Full:
+				'''
+				El Sable Estelar está completamente despierto y todas sus habilidades han sido mejoradas aún más
+				¡Se desata la máxima potencia del arma!
+				'''
+		}
+
+		Lore: "'Incluso después de todo, todavía había una persona a la que Xander se negaba a atacar...'"
+	}
+
+	ExoSights: {
+		DisplayName: Exo Sights
+		Tooltip: ""
+		SOTSBardHealerTooltip:
+			'''
+			Aumenta la probabilidad de golpe crítico en un 15%, no se acumula con las reducciones de estadísticas
+			Los golpes críticos infligen 40 puntos de daño adicionales y pueden hacer explotar a los enemigos, causando un daño del 100%
+			Los golpes críticos roban vida, regeneran el vacío, recuperan maná y devuelven la inspiración
+			El robo de vida y la regeneración de inspiración tienen un tiempo de reutilización de 1 segundo
+			Al pulsar la tecla '{$ThoriumMod.Keybinds.AccessoryAbility.DisplayName}' obtendrás golpes críticos garantizados durante 10 segundos.
+			Durante el minuto siguiente, infliges un 10% menos de daño
+			Inmunidad a los efectos negativos de sangrado y envenenamiento, y otorga visión nocturna
+			'''
+		ThoriumTooltip:
+			'''
+			Aumenta la probabilidad de golpe crítico en un 15%, no se acumula con las reducciones de estadísticas
+			Los golpes críticos infligen 40 puntos de daño adicionales, roban vida, regeneran vacío, recuperan maná y pueden detonar a los enemigos infligiendo un daño del 100%
+			El robo de vida tiene un tiempo de reutilización de 1 segundo
+			Al pulsar la tecla '{$ThoriumMod.Keybinds.AccessoryAbility.DisplayName}' obtendrás golpes críticos garantizados durante 10 segundos
+			Durante el minuto siguiente, infliges un 10% menos de daño
+			Inmunidad a los efectos negativos de sangrado y envenenamiento, y otorga visión nocturna
+			'''
+		DefaultTooltip:
+			'''
+			Aumenta la probabilidad de golpe crítico en un 15%, no se acumula con las reducciones de estadísticas
+			Los golpes críticos infligen 40 puntos de daño adicionales y pueden hacer explotar a los enemigos, causando un daño del 100%
+			Los golpes críticos roban vida, regeneran vacío y recuperan mana
+			El robo de vida tiene un tiempo de reutilización de 1 segundo
+			Inmunidad a los efectos negativos de sangrado y envenenamiento, y otorga visión nocturna
+			'''
+		Lore: Después de que Erelian obtuviera el Exo Prisma de Draedon, finalmente tenía todo lo necesario para perfeccionar la IA espiritual de su traje, y ahora el tirano estaba finalmente en su punto de mira
+	}
+
+	Lore: {
+		MysteriousDiary.DisplayName: Diario misterioso
+
+		LorePolaris: {
+			DisplayName: Polaris
+			Tooltip: ""
+		}
+
+		LoreAdvisor: {
+			DisplayName: The Advisor
+			Tooltip: ""
+		}
+
+		LoreGlowmoth: {
+			DisplayName: Glowmoth
+			Tooltip: ""
+		}
+
+		LoreLux: {
+			DisplayName: Lux
+			Tooltip: ""
+		}
+
+		LorePharaoh: {
+			DisplayName: La maldición del faraón
+			Tooltip: ""
+		}
+
+		LorePutrid: {
+			DisplayName: Rosa pútrido
+			Tooltip: ""
+		}
+
+		LoreSerpent: {
+			DisplayName: Serpiente subespacial
+			Tooltip: ""
+		}
+
+		LoreProvi: {
+			DisplayName: El Radiante
+			Tooltip: ""
+		}
+
+		LoreMirror: {
+			DisplayName: El espejo
+			Tooltip: ""
+		}
+
+		LoreDylan: {
+			DisplayName: Dylan
+			Tooltip: ""
+		}
+
+		LoreAbominationn.DisplayName: La Abominación
+		LoreDeviantt.DisplayName: La Deviantt
+		LoreMutant.DisplayName: El mutante
+		SoltanBullyingSlip.DisplayName: Chipnote anti-Soltan de Dylan
+
+		LoreMjolnir: {
+			DisplayName: Mjolnir
+			Tooltip: ""
+		}
+
+		LorePrimordials: {
+			DisplayName: Los Primordiales
+			Tooltip: ""
+		}
+
+		LoreThunderBird: {
+			DisplayName: El Gran Pájaro del Trueno
+			Tooltip: ""
+		}
+
+		LoreRagnarok: {
+			DisplayName: Ragnarok
+			Tooltip: ""
+		}
+	}
+
+	CatastrophicFabricationsMusicBox: {
+		DisplayName: Caja de música (Exo Mechs - Modo Infernum)
+		Tooltip: Reproduce 'Catastrophic Fabrications' de PinpinNeon
+	}
+
+	EyeMusicBox: {
+		DisplayName: Caja de música (Ojo de Cthulhu - Modo Infernum)
+		Tooltip: Reproduce 'Seer of the Night' de PinpinNeon
+	}
+
+	InfectedMothwingSpore: {
+		DisplayName: Espora de polilla infectada
+		Tooltip: ""
+	}
+
+	BeeMusicBox: {
+		DisplayName: Caja de música (Abeja Reina - Modo Infernum)
+		Tooltip: Reproduce 'Royal Retaliation' de PinpinNeon
+	}
+
+	CultistMusicBox: {
+		DisplayName: Caja de música (Cultista lunático - Modo Infernal)
+		Tooltip: Reproduce 'Eidolic Ancestry ~ Ancient Doomsayer' de PinpinNeon
+	}
+
+	GolemMusicBox: {
+		DisplayName: Caja de música (Golem - Modo Infernum)
+		Tooltip: Reproduce 'Icon of the Sun' de PinpinNeon
+	}
+
+	GrandThunderBirdRelic: {
+		DisplayName: Reliquia infernal del Gran Pájaro del Trueno
+		Tooltip: ""
+	}
+
+	BurriedChampionRelic: {
+		DisplayName: Reliquia infernal del Campeón Enterrado
+		Tooltip: ""
+	}
+
+	CorpseBloomRelic: {
+		DisplayName: Reliquia infernal de Flor de Cadáver
+		Tooltip: ""
+	}
+
+	QueenJellyfishRelic: {
+		DisplayName: Reliquia infernal de la medusa reina
+		Tooltip: ""
+	}
+
+	ProphecyMusicBox: {
+		DisplayName: Caja de música (Profecía)
+		Tooltip: Reproduce 'Reality of the Prophecy' de theforge129
+	}
+
+	SuspiciousLookingPumpkin: {
+		DisplayName: Calabaza de aspecto sospechoso
+		Tooltip:
+			'''
+			Invoca al Lich cuando se usa en el Filacterio Ancestral
+			No consumible
+			'''
+	}
+
+	AstrageldonRelic: {
+		DisplayName: Reliquia infernal de Astrageldon
+		Tooltip: ""
+	}
+
+	SubspaceSpawner: {
+		DisplayName: Generador de subespacios
+		Tooltip: ""
+	}
+
+	AvatarOfEmptinessRelic: {
+		DisplayName: Reliquia infernal del Avatar  del Vacío
+		Tooltip: ""
+	}
+
+	GoozmaRelic: {
+		DisplayName: Reliquia infernal de Goozma
+		Tooltip: ""
+	}
+
+	NamelessDeityRelic: {
+		DisplayName: Reliquia infernal de la Deidad sin Nombre
+		Tooltip: ""
+	}
+
+	LepusRelic: {
+		DisplayName: Reliquia infernal de Lepus
+		Tooltip: ""
+	}
+
+	OcramRelic: {
+		DisplayName: Reliquia infernal de Ocram
+		Tooltip: ""
+	}
+
+	TurkorTheUngratefulRelic: {
+		DisplayName: Reliquia infernal de Turkor, el ingrato
+		Tooltip: ""
+	}
+
+	AdvisorRelic: {
+		DisplayName: Reliquia infernal del Advisor
+		Tooltip: ""
+	}
+
+	ExcavatorRelic: {
+		DisplayName: Reliquia infernal del Excavador
+		Tooltip: ""
+	}
+
+	GlowmothRelic: {
+		DisplayName: Reliquia infernal de Glowmoth
+		Tooltip: ""
+	}
+
+	PolarisRelic: {
+		DisplayName: Reliquia Infernal de Polaris
+		Tooltip: ""
+	}
+
+	PutridPinkyRelic: {
+		DisplayName: Reliquia infernal del Rosa Putrido
+		Tooltip: ""
+	}
+
+	SubspaceSerpentRelic: {
+		DisplayName: Reliquia infernal de la Serpiente Subespacial
+		Tooltip: ""
+	}
+
+	BoreanStriderRelic: {
+		DisplayName: Reliquia infernal del Caminante Boreal
+		Tooltip: ""
+	}
+
+	FallenBeholderRelic: {
+		DisplayName: Reliquia infernal del Observador Caído
+		Tooltip: ""
+	}
+
+	ForgottenOneRelic: {
+		DisplayName: Reliquia infernal del Radiante
+		Tooltip: ""
+	}
+
+	GraniteEnergyStormRelic: {
+		DisplayName: Reliquia infernal de la Energía de Tormenta de Granito
+		Tooltip: ""
+	}
+
+	LichRelic: {
+		DisplayName: Reliquia infernal del Lich
+		Tooltip: ""
+	}
+
+	PatchWerkRelic: {
+		DisplayName: Reliquia infernal del Patch Werk
+		Tooltip: ""
+	}
+
+	PrimordialsRelic: {
+		DisplayName: Reliquia infernal de los Primordiales
+		Tooltip: ""
+	}
+
+	StarScouterRelic: {
+		DisplayName: Reliquia infernal del Explorador Estelar
+		Tooltip: ""
+	}
+
+	ViscountRelic: {
+		DisplayName: Reliquia infernal de Viscount
+		Tooltip: ""
+	}
+
+	Lycanroc: {
+		DisplayName: Lycanroc
+		Tooltip: ""
+
+		Progression: {
+			WoF:
+				'''
+				Derrota al guardián del Infierno para obtener más poder...
+				No se ha obtenido potencia adicional...
+				'''
+			Mechs:
+				'''
+				Con la derrota del Muro de Carne, las balas disparadas por esta arma infligen desmoronamiento
+				Derrota a las bestias mecánicas para obtener más poder...
+				'''
+			Plantera:
+				'''
+				Tras la derrota de las máquinas de Draedon, esta arma ahora convierte las balas normales en balas de alta velocidad
+				Derrota al guardián de la jungla para obtener más poder...
+				'''
+			Golem:
+				'''
+				Tras la derrota de Plantera, tu furia ahora hace que esta arma dispare increíblemente rápido
+				Derrota la construcción del Templo de Lizhard para obtener más poder...
+				'''
+			Cultist:
+				'''
+				Con la derrota del Golem, tu adrenalina garantiza golpes críticos.
+				Derrota al líder del antiguo culto para obtener más poder...
+				'''
+			MoonLord:
+				'''
+				Con la derrota del Cultista Lunático, esta arma ahora tiene la posibilidad de realizar un supercrítico
+				Derrota al cadáver arcano para obtener más poder...
+				'''
+			Full: ¡El Lycanroc ha despertado por completo y ha desatado todo su poder!
+		}
+
+		Lore: "'¿Qué vas a hacer? ¿Matarme?'"
+	}
+
+	CelestialIllumination: {
+		DisplayName: Iluminación celestial
+		Tooltip: ""
+
+		Progression: {
+			Deus:
+				'''
+				Derrota al horror cósmico para obtener más poder...
+				No se ha obtenido potencia adicional...
+				'''
+			MoonLord:
+				'''
+				Con la derrota del Señor de la Luna, tus estrellas son más rápidas
+				Defeat the guardians of the profaned flame to gain more power...
+				'''
+			Providence:
+				'''
+				Con la derrota de Providence, tus ataques infligen Llamas Sagradas
+				Derrota a los centinelas de la plaga para obtener más poder...
+				'''
+			Polterghast:
+				'''
+				Tras la derrota de Polterghast, podrás disparar un rayo celestial
+				Derrota al Devorador de Dioses para obtener más poder...
+				'''
+			DoG:
+				'''
+				Con la derrota del Devorador de Dioses, tu hogar estelar
+				Derrota al resplandeciente fénix para obtener más poder...
+				'''
+			Full: ¡La Iluminación Celestial ha despertado por completo y su verdadero poder ha sido revelado!
+		}
+
+		Lore: El último libro forjado por aquel que lleva la marca de Astra...
+	}
+
+	Genesis: {
+		DisplayName: Genesis
+		Tooltip: ""
+	}
+
+	ClamitasRelic: {
+		DisplayName: Reliquia infernal de Clamitas
+		Tooltip: ""
+	}
+
+	PyrogenRelic: {
+		DisplayName: Reliquia infernal de Pyrogen
+		Tooltip: ""
+	}
+
+	WallofBronzeRelic: {
+		DisplayName: Reliquia infernal del Muro de Bronze
+		Tooltip: ""
+	}
+
+	NoxusRelic: {
+		DisplayName: Reliquia infernal de Noxus
+		Tooltip: ""
+	}
+
+	AbominationnRelic: {
+		DisplayName: Reliquia infernal de la Abominación
+		Tooltip: ""
+	}
+
+	BanishedBaronRelic: {
+		DisplayName: Reliquia infernal del Baron Desterrado
+		Tooltip: ""
+	}
+
+	CursedCoffinRelic: {
+		DisplayName: Reliquia infernal de la Maldición Confinada
+		Tooltip: ""
+	}
+
+	DeathChampionRelic: {
+		DisplayName: Reliquia infernal del Campeón de la Muerte
+		Tooltip: ""
+	}
+
+	DevianttRelic: {
+		DisplayName: Reliquia infernal de Deviantt
+		Tooltip: ""
+	}
+
+	EarthChampionRelic: {
+		DisplayName: Reliquia infernal del Campeón de la Tierra
+		Tooltip: ""
+	}
+
+	EridanusRelic: {
+		DisplayName: Reliquia infernal del Eridanus, el Campeón del Cosmos
+		Tooltip: ""
+	}
+
+	LifeChampionRelic: {
+		DisplayName: Reliquia infernal del Campeón de la Vida
+		Tooltip: ""
+	}
+
+	LifelightRelic: {
+		DisplayName: Reliquia infernal del la Luz de la Vida
+		Tooltip: ""
+	}
+
+	MutantRelic: {
+		DisplayName: Reliquia infernal del Mutante
+		Tooltip: ""
+	}
+
+	NatureChampionRelic: {
+		DisplayName: Reliquia infernal del Campeón de la Naturaleza
+		Tooltip: ""
+	}
+
+	SpiritChampionRelic: {
+		DisplayName: Reliquia infernal del Campeón del Alma
+		Tooltip: ""
+	}
+
+	TerraChampionRelic: {
+		DisplayName: Reliquia infernal del Campeón de Terra
+		Tooltip: ""
+	}
+
+	TrojanSquirrelRelic: {
+		DisplayName: Reliquia infernal de la Ardilla de Troya
+		Tooltip: ""
+	}
+
+	WillChampionRelic: {
+		DisplayName: Reliquia infernal del Campeón de la Voluntad
+		Tooltip: ""
+	}
+
+	LuxRelic: {
+		DisplayName: Reliquia infernal de Lux
+		Tooltip: ""
+	}
+
+	PharohsCurseRelic: {
+		DisplayName: Reliquia infernal del Faraón Maldito
+		Tooltip: ""
+	}
+
+	CatalyzedCrystal: {
+		DisplayName: Cristal Catalizado
+		Tooltip:
+			'''
+			Un cristal creado tras la explosión de la Bomba Catalizadora
+			Invoca a la Serpiente Subespacial cuando se usa en el Infierno
+			No consumible
+			'''
+	}
+
+	ChaosBlaster: {
+		DisplayName: Chaos Blaster
+		Tooltip: ""
+	}
+
+	Swordofthe1stGlitch: {
+		DisplayName: Espada del Primero
+		Tooltip:
+			'''
+			Haz clic derecho para desplazarte rápidamente hacia el cursor
+			La primera forma del Cristal del Fallo, empuñada por Zelcor Guritchi
+			'''
+	}
+
+	Swordofthe13thGlitch: {
+		DisplayName: Espada de la corrupción
+		Tooltip:
+			'''
+			Haz clic derecho para disparar una ráfaga de rayos de espada
+			Mientras mantengas pulsado, Furia se activará automáticamente cuando el medidor esté lleno
+			Mientras Furia esté activa, generarás clones de ti mismo que atacarán en tu cursor
+			La decimotercera forma del Cristal de la Falla, empuñada por Nahu Guritchi
+			'¡Acabaré con nuestra maldición de una vez por todas, Zane!'
+			'''
+	}
+
+	Weapons: {
+		Rogue: {
+			NovaBomb: {
+				Tooltip:
+					'''
+					Lanza una ardiente nova púrpura de destrucción
+					'No te preocupes, Willow, puedo hacerlo yo solo'
+					- En desarrollo: Actualmente solo utiliza la IA Supernova de CalamityMod -
+					'''
+				DisplayName: Bomba Nova
+			}
+		}
+	}
+
+	DreadnautilusRelic: {
+		DisplayName: Reliquia de Dreadnautilus
+		Tooltip: ""
+	}
+
+	HypnosRelic: {
+		DisplayName: Reliquia del Hypnos
+		Tooltip: ""
+	}
+
+	TerraBladeRelic: {
+		DisplayName: Reliquia de la Terra Blade
+		Tooltip: ""
+	}
+
+	TerraBladeTrophy: {
+		DisplayName: Trofeo de la Terra Blade
+		Tooltip: ""
+	}
+
+	RingofTix: {
+		DisplayName: Anillo de entradas quemadas
+		Tooltip: ""
+		SOTSTooltip: Haz clic derecho mientras estés en favoritos para invertir la gema seleccionada actualmente, desactivando el efecto de la gema y activando el efecto invertido
+		G0: Encadena bloques al minar, rompiendo hasta 50 bloques a la vez
+		G1: Matar enemigos otorga una mejora aleatoria durante 30 segundos
+		G2: Genera monedas cuando se obtiene el vacío
+		G3: Los enemigos tienen un 14,3% de probabilidad de soltar el doble de botín
+		G4:
+			'''
+			Los enemigos eliminados tienen un 50% de probabilidad de soltar corazones adicionales
+			Esta probabilidad aumenta al 100% con golpes críticos
+			Recolectar corazones prolonga la duración de los potenciadores activos, hasta el doble de la duración original
+			'''
+		G5:
+			'''
+			Aumenta el daño en función de la defensa, luego disminuye la defensa en dos tercios de la bonificación de daño
+			Aumenta el daño en {0}%
+			Disminuye la defensa en {1}
+			'''
+		G6: Recibir un golpe otorga una mejora aleatoria durante 30 segundos
+		# Lo opuesto a la pereza, la diligencia
+		I0:
+			'''
+			Aumenta la velocidad de colocación de bloques y muros en un 20 % y el rango de colocación en 3
+			Aumenta la velocidad de movimiento en un 20%
+			'''
+		# Lo opuesto a la ira, la paciencia
+		I1: Recibe una mejora aleatoria durante 30 segundos cada 20 segundos
+		# Lo opuesto a la codicia, la caridad
+		I2:
+			'''
+			Cuando recibes daño, el 10% del daño recibido se convierte en vacío
+			Al usar vacío, el 10% del vacío utilizado se convierte en vida
+			'''
+		# Lo opuesto a la envidia, la bondad
+		I3:
+			'''
+			Reduzca los daños sufridos en un 15%
+			Reduce el daño infligido en un 15%
+			'''
+		# Lo opuesto a la gula, la templanza
+		I4:
+			'''
+			Subvenciones permanentes Bien alimentado
+			Recarga de consumibles vacíos 75% menos vacío
+			'''
+		# Lo opuesto al orgullo, la humildad
+		I5:
+			'''
+			Ya no puedes realizar golpes críticos
+			Los aumentos recibidos en la probabilidad de golpe crítico se convierten en aumentos multiplicativos del daño
+			'''
+		# Lo opuesto a la lujuria, la castidad 
+		I6:
+			'''
+			Los potenciadores no se desvanecen mientras la vida esté por encima del 90%
+			Recibir un golpe cuando la vida está por debajo del 90% provoca que la duración de todos los potenciadores se reduzca a la mitad
+			'''
+		NormalTooltip:
+			'''
+			Aumento del 18% en los daños
+			Aumenta el daño de las flechas en un 5%
+			10% de aumento en la velocidad de movimiento
+			+3,5 HP/s de regeneración de vida y +2 esbirros máximos
+			Mayor retroceso de los esbirros
+			Aumenta todo el daño en 4
+			Aumenta la penetración de la armadura en 5
+			Aumenta la probabilidad de golpe crítico en un 4%
+			Aumenta la obtención de monedas y el daño mágico
+			Durante el día, otorga +2 HP/s de regeneración de vida
+			Durante la noche, otorga +20 de defensa
+			Durante un eclipse, otorga +1 de regeneración de vida por segundo y +10 de defensa
+			Los golpes críticos de flecha afectan brevemente a los enemigos de llama sombría
+			Aumenta tu tiempo máximo de vuelo en un 20%
+			'Detrás de las llamas y las chispas, si miras con suficiente atención, verás tu pasado y tu futuro'
+			'''
+	}
+
+	InfernalTerraBladeRelic: {
+		DisplayName: Reliquia infernal de la Terra Blade
+		Tooltip: ""
+	}
+
+	DemonicTome: {
+		DisplayName: Tomo Demoníaco
+		Tooltip: ""
+	}
+
+	EmptyDemonicTome: {
+		DisplayName: Tomó Vacío Demoníaco
+		Tooltip: ""
+	}
+
+	InfernalTwilight: {
+		DisplayName: Crepúsculo Infernal
+		Tooltip:
+			'''
+			Gracias a todo el equipo, a todos nuestros colaboradores, a nuestros probadores de juegos, a todos los que brindaron su apoyo,
+			¡Las personas que nos inspiraron y todos aquellos que juegan al mod y lo mantienen vivo!
+			Los límites de esta pintura no son suficientes para albergar a todo el equipo
+			Mantén pulsada la tecla SHIFT para ver la lista completa de créditos
+			'''
+	}
+
+	AbandonedWorkshop: {
+		DisplayName: Taller Abandonado
+		Tooltip: Los restos del taller del Duende Chapucero. ¿Quizás él pueda ayudarte a repararlo?
+	}
+
+	PrimordialOrchid: {
+		DisplayName: Orquídea Primordial
+		Tooltip: Una orquídea imbuida de la Luz Primordial, que crece en el Jardín Eterno
+	}
+
+	TinkerersRepairBlueprints: {
+		DisplayName: Planos de reparación para manitas
+		Tooltip:
+			'''
+			Cuando me ataron, los otros duendes parecen haber perdido mi taller,
+			y ahora temo que una de las bestias de Cthulhu lo tenga...
+			Si logras matar a uno y conseguir mi taller en ruinas, ¡esto te ayudará a repararlo!
+			'''
+	}
+
+	NebulaGigabeam: {
+		DisplayName: Gigarayo de Nebulosa
+		Tooltip: ""
+	}
+
+	ExoDisintegrator: {
+		DisplayName: Exo Desintegrador
+		Tooltip: ""
+	}
+
+	MenuMusicBox: {
+		DisplayName: Caja de música (Infernal Eclipse of Ragnarok Title)
+		Tooltip: Reproduce 'Teardrops of Dragonfire' de Peter Fung
+	}
+
+	Streetsign: {
+		DisplayName: Señal de Calle
+		Tooltip: ""
+		DynamicTooltip:
+			'''
+			Mientras sostienes esta arma, tienes una barra de improbabilidad
+			El bar cobra por causar o recibir daño
+			Cuando la barra esté llena, pulsa {0} para obtener estadísticas de combate y velocidad de movimiento mejoradas durante 1 minuto
+			[c/7C0A02: ¡¡¡NO MATAS AL PAYASO!!! ¡¡¡EL PAYASO TE MATA A TI!!!]
+			'''
+	}
+
+	AngryPudding: {
+		DisplayName: Pudín Enojado
+		Tooltip: ""
+		DynamicTooltip:
+			'''
+			{0}{1} mejoras en todas las estadísticas Activa instantáneamente el modo de ira e inflige enfermedad por poción '¡品尝我的怒火……和布丁!'
+			'''
+		VoidTooltip: Regenera 100 de vacío
+		Stellar: Estelar
+		Major: Mayor
+	}
+
+	SingularityCore: {
+		DisplayName: Nucleo de Singularidades
+		Tooltip:
+			'''
+			Aumenta permanentemente el vacío máximo en 100 y la velocidad de regeneración del vacío en un 10%
+			Solo puede usarse una ves
+			'''
+	}
+
+	PhantomMask: {
+		DisplayName: Mascara Fantasmal
+		Tooltip: ""
+	}
+
+	PhantomSuitCoat: {
+		DisplayName: Abrigo Fantasmal
+		Tooltip: ""
+	}
+
+	PhantomSuitPants: {
+		DisplayName: Pantalones Fantasmales
+		Tooltip: ""
+	}
+
+	Materials: {
+		EssenceOfFlame: {
+			DisplayName: Esencia Ígnea
+			Tooltip: "'La esencia del horno de azufre'"
+		}
+	}
+
+	Destinary: {
+		DisplayName: Destino
+		Tooltip:
+			'''
+			Lanza discos exo de cuchillas hacia el cursor que regresan al jugador
+			Esta arma y sus proyectiles funcionan como una motosierra
+			Pulsa el botón derecho para usarlo sin talar árboles
+			'''
+	}
+
+	MaulerRelic: {
+		DisplayName: Reliquia de Mauler
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	GlitchSwordHoldout.DisplayName: Espada Defectuosa
+	Rogue.NovaBombProj.DisplayName: Bomba Niva Proj
+	StellarStar.DisplayName: Estrella Estelar
+	BossRushTier6Animation.DisplayName: Boss Rush Tier6 Animación
+	RogueSpectreBlast.DisplayName: Explosión de Espectro Renegado
+	BountifulHarvestStinger.DisplayName: Aguijón de Cosecha Abundante
+	FriendlyBrimstoneBarrage.DisplayName: Bombardero de Azufre Amistoso
+	FriendlyBrimstoneFireblast.DisplayName: Explosión Ígnea de Azufre Amistosa
+	RadioMicPro.DisplayName: Micrófono Inalámbrico Proj
+	RadioMicShadowBurst.DisplayName: Ráfaga de Sombras de Micrófono de Radio
+	TidalWaveWhirlpool.DisplayName: Remolino de Maremoto
+	FireAxeStealthPro.DisplayName: Acha de Fuego Sigilosa Proj
+	GalaxyRainController.DisplayName: Controlador de Lluvia Galáctica
+	FriendlyBrimstoneGigablast.DisplayName: Giga Explosión de Azufre Amistosa
+	BeamChargeUp.DisplayName: Carga del Rayo
+	ChaosBlasterBeam.DisplayName: Rayo Blaster del Caos
+	HomingTerraBeam.DisplayName: Haz Terra
+	PlayerShadowClone.DisplayName: Clone de Sombra
+	TerraSlash.DisplayName: Corte Terra
+	NovaBombBlackHoleProj.DisplayName: Agujero Negro
+	NovaBombProj.DisplayName: Bomba Nova
+	FirstSwordHoldoutCombo.DisplayName: Espada del Primero
+	_13thGltichCombo.DisplayName: _13.ª Combinación de Fallos
+	CelestialBeam.DisplayName: Haz Celestial
+	DemonicRune.DisplayName: Runa del Pequeño Gato Gris Demoníaco
+	ThoriumHeavyScytheSpark.DisplayName: Chispa de Guadaña Pesada de Torio
+	NebulaBeam.DisplayName: Haz de Nebulosa
+	NebulaChargeUp.DisplayName: Carga de Nebulosa
+	DisintegratorBeam.DisplayName: Haz Desintegrador
+	DisintegratorChargeUp.DisplayName: Carga Desintegradora
+	DestinaryProjectile.DisplayName: Proyectil del Destino
+	ExoDisk.DisplayName: Exo Disco
+	PutridPinkyDashTelegraph.DisplayName:    Embestida Telegrafeada de Rosa Pútrido 
+	EvilGrowth.DisplayName: Crecimiento Maligno
+	EvilStrike.DisplayName: Golpe Maligno
+	CelestialIlluminationBeam.DisplayName: Haz de Iluminación Celestial
+	CelestialIlluminationStar.DisplayName: Estrella de Iluminación Celestial
+	CelestialIlluminationBeamCharge.DisplayName: Carga del Haz De Iluminación Celestial 
+}
+
+DiaryTooltip:
+	'''
+	[c/E3AF40:Un misterioso diario que ha quedado sin firmar...]
+	[c/BEBEBE:Pulsa la tecla "Shift izquierdo" para abrir el diario]
+	'''
+BullyingTooltip:
+	'''
+	Aumenta la mayoría del daño que no proviene de invocaciones en un 2% por cada espacio de esbirro no utilizado
+	Reduce el daño de invocación en un 10% por cada espacio de esbirro utilizado
+	Los látigos ahora escalan con tus bonificaciones de combate cuerpo a cuerpo en lugar de con las bonificaciones de invocador
+	Aumenta el daño del látigo en un 10%
+	[c/E3AF40:Un billete de papel con un microchip incorporado, diseñado por Dylan]
+	[c/BEBEBE:Pulsa la tecla "Mayús izquierda" para leer el texto que aparece en el reverso de la nota]
+	'''
+
+Configs: {
+	InfernalConfig: {
+		WrathoftheGodsBossesInBossRush: {
+			Tooltip: Añade a XG-07 Marte, el Avatar del Vacío y la Deidad Sin Nombre a la Oleada de Jefes
+			Label: Los jefes de la ira de los Dioses en Boss Rush
+		}
+
+		BetsyInBossRush: {
+			Tooltip: Añade a Betsy a Boss Rush - ACTUALMENTE TIENE UN ERROR
+			Label: Betsy en Boss Rush
+		}
+
+		DreadnautillusInBossRush: {
+			Tooltip: Añade a Dreadnautillus a el Bosss Rush
+			Label: Dreadnautillus en Boss Rush
+		}
+
+		Headers: {
+			BossRushChanges: Interruptores de Boss Rush
+			BalanceChanges: Cambios de equilibrio
+			Miscellaneous: Misceláneas
+			MultiplayerAdjustments: Ajustes y utilidades multijugador
+			Main: Principal
+			Secret: Configuración Secreta
+		}
+
+		ThoriumBalanceChangess: {
+			Tooltip: Modifica el torio y varios complementos de torio para que estén en sintonía con el equilibrio de Calamity
+			Label: Cambios en el equilibrio de Thorium
+		}
+
+		CalamityRecipeTweaks: {
+			Tooltip: Modifica algunas recetas de Calamity y elimina la mayoría de las recetas de Vanilla QOL
+			Label: Ajustes en la receta de Calamity
+		}
+
+		CalamityBalanceChanges: {
+			Tooltip:
+				'''
+				Modifica Calamity y varios complementos de Calamity que estén desequilibrados o con un nivel de poder demasiado bajo
+				También ajusta algunas recetas de diferentes mods para mantener el equilibrio
+				'''
+			Label: Cambios de Balance de Calamity
+		}
+
+		BossKillCheckOnOres: {
+			Tooltip:
+				'''
+				Realiza cambios en ciertos objetos para que no se puedan obtener hasta alcanzar su nivel previsto
+				Impide la extracción de ciertos minerales y bloques hasta que derrotes a ciertos jefes
+				'''
+			Label: Mantener la progresión del nivel de calamidad
+		}
+
+		VanillaBalanceChanges: {
+			Tooltip: Modifica algunos elementos del juego base para que estén en sintonía con el equilibrio de Calamity
+			Label: Cambios en el equilibrio de vainilla
+		}
+
+		DisplayName: Configuración principal
+
+		TerraBladeBossInBossRush: {
+			Tooltip: Añade al jefe Terra Blade en el Boss Rush
+			Label: Jefe Terra Blade en Boss Rush
+		}
+
+		InfernumModeForced: {
+			Tooltip:
+				'''
+				Bloquea el control deslizante de dificultad de Calamidad, incluso fuera de las peleas contra jefes
+				Asegúrese de establecer la dificultad antes de habilitar esta configuración
+				Útil para servidores donde no se desea que se cambie la dificultad
+				'''
+			Label: Control deslizante de dificultad de calamidad bloqueado
+		}
+
+		SOTSBalanceChanges: {
+			Tooltip: Modifica los objetos de Secretos de las Sombras para que estén en sintonía con el equilibrio de Calamity
+			Label: Cambios de equilibrio de Secrets of the Shadows
+		}
+
+		ConsolariaBalanceChanges: {
+			Tooltip: Modifica los objetos de Consolaria para que estén en sintonía con el equilibrio de Calamity
+			Label: Cambios de equilibrio de Consolaria
+		}
+
+		InfernumRecipeTweaks: {
+			Tooltip: Ajusta algunas recetas de Infernum
+			Label: Modificaciones de recetas de Infernum
+		}
+
+		ForceFullXerocDialogue: {
+			Label: Diálogo de Xeroc completo forzado
+			Tooltip: Obliga al juego a mostrar el diálogo completo de Xeroc al iniciar el modo Boss Rush y al completarlo. Útil para los servidores
+		}
+
+		SOTSThrowerToRogue: {
+			Tooltip: Crea los objetos de vacío + lanzador de los objetos de vacío + rogue de bardo, lanzador y sanador no oficiales de SOTS
+			Label: Combina las clases Vacío + Lanzador y Rogue
+		}
+
+		DisableBloodOrbPotions: {
+			Tooltip: Deshabilita las recetas de elaboración de pociones que utilizan orbes de sangre.
+			Label: Desactivar pociones con orbe de sangre
+		}
+
+		PreventBossCheese: {
+			Tooltip: Añade algunas mecánicas al juego que impiden que ciertos jefes sean derrotados fácilmente de determinadas maneras
+			Label: Evitar exploits de jefes
+		}
+
+		DisableUnfinisedContent: {
+			Label: Deshabilitar contenido no finalizado
+			Tooltip: Deshabilita cualquier contenido inacabado de los mods para mantener una experiencia de juego consistente
+		}
+
+		DisableDuplicateContent: {
+			Label: Deshabilitar contenido duplicado
+			Tooltip: Deshabilita cualquier contenido duplicado que dos mods puedan agregar
+		}
+
+		AdditonalVanillaBossAdjustments: {
+			Label: Ajustes adicionales para jefes Vanilla
+			Tooltip: Ajusta ligeramente las estadísticas de algunos jefes del juego base para que supongan un mayor desafío
+		}
+
+		MergeCraftingTrees: {
+			Label: Combinar árboles de creación
+			Tooltip: Combina los árboles de creación de objetos similares de varios mods y añade materiales de creación de diferentes mods a ciertos objetos
+		}
+
+		BloodOrbPotionDuplication: {
+			Label: Poción de orbe de sangre Duplication
+			Tooltip: Sustituye las recetas de pociones de Orbe de Sangre por recetas de duplicación
+		}
+
+		ChanageWeaponClasses: {
+			Label: Cambiar clases de armas
+			Tooltip: Cambia la clase de algunas armas para ofrecer más variedad o para que tengan más sentido en relación con el arma
+		}
+
+		DisplayWorldEntryMessages: {
+			Label: Mostrar mensajes de entrada al mundo
+			Tooltip: Activa/desactiva los mensajes al entrar en un mundo
+		}
+
+		EnableInterlude4: {
+			Label: Habilitar Interludio 4
+			Tooltip:
+				'''
+				Activa/desactiva el tema del cuarto interludio
+				Este interludio se reproducirá después de que tanto los Exo Mechs como las Calamitas Supremas hayan sido derrotados
+				Esta canción reemplazará a Their Fabricator & Acceptance cuando suene
+				'''
+		}
+
+		AdjustAdvisorSpawnConditions: {
+			Label: Ajustar las condiciones de aparición del asesor
+			Tooltip:
+				'''
+				Ajusta las condiciones de aparición del Asesor para que no esté siempre activo en el mundo
+				Resulta útil si utilizas la barra de jefe Infernum y no quieres que esté siempre activa debido a que el Asesor está vivo todo el tiempo
+				Se sabe que esto causa problemas en el modo multijugador, así que desactívalo si planeas jugar en modo multijugador
+				'''
+		}
+
+		MultiplayerBossRespawnTimer: {
+			Label: Temporizador de reaparición de jefes en el modo multijugador
+			Tooltip: Cuánto tiempo se tarda en reaparecer durante una pelea contra un jefe
+		}
+
+		MinimumDifficultyToPreventRespawns: {
+			Label: Dificultad mínima para evitar reapariciones
+			Tooltip: La dificultad mínima para aplicar el sistema de prevención de reaparición
+		}
+
+		MultiplayerRespawnsAllowed: {
+			Label: Se permiten reapariciones en el modo multijugador
+			Tooltip: El número de reapariciones permitidas durante las batallas contra jefes
+		}
+
+		NerfThoriumMulticlass: {
+			Label: Nerf Multiclase de Thorium
+			Tooltip: Añade algunos sistemas para evitar que el Bardo y el Sanador se multiclasen y se vuelvan demasiado poderosos
+		}
+
+		ColoredRelics: {
+			Label: Reliquias coloreadas
+			Tooltip: Activa o desactiva los colores de las reliquias de este mod
+		}
+
+		ForceMenu: {
+			Label: Tema del menú a la fuerza
+			Tooltip: Obliga a que se seleccione el tema del menú "Infernal Eclipse of Ragnarok" al cargar el mod
+		}
+
+		AutomatedConfigSetup: {
+			Label: Configuración automatizada
+			Tooltip: Configura automáticamente los archivos de configuración de otros mods para que sean los archivos de configuración previstos para el paquete de mods Infernal Eclipse of Ragnarok
+		}
+
+		MoveDeerclopsChecklistEntry: {
+			Label: Entrada de la lista de verificación de movimiento de Deerclops
+			Tooltip: Mueve a Deerclops para que aparezca antes que Skeletron en la lista de jefes para que coincida con la posición de Calamity e Infernum en la clasificación
+		}
+
+		DontEnableThis: {
+			Label: No habilite esto
+			Tooltip: No actives esta opción. Probablemente te dará una idea equivocada y provocará un juego desequilibrado y defectuoso
+		}
+
+		CalamityExpertAccessories: {
+			Label: Accesorios para expertos en calamidades
+			Tooltip: Activa o desactiva la rareza de experto en ciertos objetos que sueltan los jefes de Calamity
+		}
+
+		AutomaticallyReforgeThoriumRogueItems: {
+			Label: Reforja automáticamente los objetos de pícaro de Thorium
+			Tooltip:
+				'''
+				Agrega automáticamente las bonificaciones de estadísticas del prefijo "Impecable" a todos los objetos de pícaro de torio no consumibles
+				Puede ayudar a que los objetos de Torio alcancen el nivel de los objetos de Calamidad con prefijos, ya que los objetos de Pícaro de Torio no se pueden reforjar
+				Solo funciona cuando Ragnarok o Unofficial Calamity Bard & Healer están activados
+				Esta configuración no tiene efecto si la opción Fusionar Lanzador en Pícaro está habilitada
+				'''
+		}
+
+		MergeThrowerIntoRogue: {
+			Label: Fusionar lanzador en pícaro
+			Tooltip:
+				'''
+				Fusiona las clases Lanzador y Pícaro en una sola clase mejorada
+				Permite que las armas arrojadizas convertidas sigan recibiendo sus reforjas originales
+				Además, mantiene intacto el escalado de daño de la barra de sigilo
+				'''
+		}
+
+		ThereIsNoReasonDisableThis: {
+			Label: No hay razón para deshabilitar esto
+			Tooltip:
+				'''
+				No hay motivo para desactivar esta opción, ya que desactiva las dificultades que presentan errores y desequilibrios al combinarse con Infernum
+				Desactive esta configuración únicamente si conoce las consecuencias y no informe de errores cuando esta configuración esté desactivada
+				'''
+		}
+	}
+
+	Difficulty: {
+		Tooltip: ""
+
+		AlwaysOff: {
+			Label: Siempre apagado
+			Tooltip: ""
+		}
+
+		AlwaysOn: {
+			Label: Siempre encendido
+			Tooltip: ""
+		}
+
+		Expert: {
+			Label: Experto
+			Tooltip: ""
+		}
+
+		Master: {
+			Label: Maestro
+			Tooltip: ""
+		}
+
+		Legendary: {
+			Label: Legendario
+			Tooltip: ""
+		}
+
+		Revengence: {
+			Label: Venganza
+			Tooltip: ""
+		}
+
+		Death: {
+			Label: Muerte
+			Tooltip: ""
+		}
+
+		Infernum: {
+			Label: Infernum
+			Tooltip: ""
+		}
+
+		Ragnarok: {
+			Label: Ragnarok
+			Tooltip: ""
+		}
+	}
+}
+
+DamageClasses: {
+	VoidRogue.DisplayName: vacío + daño de rogue
+	MergedThrowerRogue.DisplayName: daño de rogue
+	LegendaryMelee.DisplayName: Daño cuerpo a cuerpo legendario
+	LegendaryRanged.DisplayName: Daño a distancia legendario
+	MythicMelee.DisplayName: Daño cuerpo a cuerpo mágico
+	MythicMagic.DisplayName: Daño mágico mítico
+	MythicRanged.DisplayName: Daño a distancia mítico
+	LegendaryMagic.DisplayName: Daño mágico Legendario
+	MeleeWhip.DisplayName: Daño de látigo cuerpo a cuerpo
+	MythicSummon.DisplayName: Daño de invocación mítico
+}
+
+BossRushIntroText1:
+	'''
+	Prueba de Xeroc
+	Conjunto de bufones
+	'''
+
+InfernumIntegration: {
+	Astrageldon:
+		'''
+		Terror Multiversal
+		Astrageldon
+		'''
+	Clamitas:
+		'''
+		Almeja Suprema
+		Clamitas
+		'''
+	You:
+		'''
+		Reflexión Oscura
+		Tú
+		'''
+	Polaris:
+		'''
+		Maquina de guerra gélida
+		Polaris
+		'''
+	NewPolaris:
+		'''
+		Maquina de guerra gélida
+		Polaris
+		'''
+	TrojanSquirrel:
+		'''
+		Conde arbolado maníaco
+		Ardilla de Troya
+		'''
+	CursedCoffin:
+		'''
+		Tumba paranormal embrujada
+		Maldición Confinada
+		'''
+	DeviBoss:
+		'''
+		Sádico enamorado
+		Deviantt
+		'''
+	BanishedBaron:
+		'''
+		Máquina desobediente
+		Barón Desterrado
+		'''
+	LifeChallenger:
+		'''
+		Maestro de las hadas
+		Luz de Vida
+		'''
+	TimberChampion:
+		'''
+		Emperador del bosque
+		Campeón de la Madera
+		'''
+	TerraChampion:
+		'''
+		Excavador tectónico
+		Campeón de Terra
+		'''
+	EarthChampion:
+		'''
+		Erupción magmatica
+		Campeón de la Tierra
+		'''
+	NatureChampion:
+		'''
+		La Hydra elemental
+		Campeón de la Naturaleza
+		'''
+	LifeChampion:
+		'''
+		Vivificantem Angélico
+		Campeón de la Vida
+		'''
+	DeathChampion:
+		'''
+		Dragon mortificador
+		Campeón de la Muerte
+		'''
+	SpiritChampion:
+		'''
+		Tonalidad de Pneumea
+		Campeón del Alma
+		'''
+	WillChampion:
+		'''
+		El victorioso Rey Fishron
+		Campeón de la Voluntad
+		'''
+	Eridanus:
+		'''
+		Dominador del cosmos
+		Campeón del Cosmos, Eridanus
+		'''
+	AbomBoss:
+		'''
+		Amalgama holística
+		Abominación
+		'''
+	YharimMutant:
+		'''
+		El buscador de Dioses
+		Yharim
+		'''
+	Mutant:
+		'''
+		La Transformación Definitiva
+		Mutante
+		'''
+	MutantEX:
+		'''
+		The Champion of the Omniverse
+		Monstruosidad
+		'''
+	Mars:
+		'''
+		Maquina definitiva
+		XG-07 Mars
+		'''
+	HypnosBoss:
+		'''
+		Errata cerebral
+		XP-00 Hypnos
+		'''
+	AvatarOfEmptiness:
+		'''
+		Estrella de un mundo perfecto
+		Avatar del Vacío
+		'''
+	RealMutantEX:
+		'''
+		La revancha extrema
+		MutantEX
+		'''
+	Guntera:
+		'''
+		El crecimiento desmesurado del Partido Republicano
+		Guntera
+		'''
+	Echdeath:
+		'''
+		Kitty Cat
+		Echdeath
+		'''
+	CeilingOfMoonlord:
+		'''
+		Techo arcano
+		Techo del Señor de la Luna
+		'''
+	LittleCat:
+		'''
+		Caos encarnado
+		Pequeño Gato Gris Demoníaco
+		'''
+}
+
+Buffs: {
+	StarboundHorrification: {
+		Description: No podrás escapar de Astrageldon...
+		DisplayName: Horror estelar
+	}
+
+	WarpJammed: {
+		Description: Draedon está monitoreando tus teletransportes...
+		DisplayName: Distorsión Atascada
+	}
+
+	AnchoredSoul: {
+		DisplayName: Alma anclada
+		Description: Tu alma está actualmente anclada a otra posición
+	}
+
+	BrokenOath: {
+		DisplayName: Juramento Roto
+		Description: No hagas daño - Hipócrates
+	}
+
+	BubbleShock: {
+		DisplayName: Choque de Burbujas
+		Description: ¡Ya no te pueden afectar más las burbujas!
+	}
+
+	VoidSickness2: {
+		DisplayName: Enfermedad del Vacío
+		Description: ¡Tu alma se siente enferma, reduciendo el daño!
+	}
+
+	LowGround: {
+		DisplayName: Aura Gélida
+		Description: ¡Tu movimiento se ha visto significativamente obstaculizado!
+	}
+
+	DefaultSummonTag: {
+		DisplayName: Etiqueta de Invocación Predeterminada
+		Description: Mods.InfernalEclipseAPI.Buffs.DefaultSummonTag.Description
+	}
+
+	CrimulanAura: {
+		DisplayName: Aura Crimulana
+		Description: ¡Tu movimiento se ha visto significativamente obstaculizado!
+	}
+}
+
+SpawnInfo: {
+	Dreadnautilus: Existe la posibilidad de que aparezca mientras se pesca durante una luna de sangre
+	PrimordialWyrmHead: Una antigua reliquia yace en el fondo del Abismo...
+}
+
+Tiles: {
+	CatastrophicFabricationsMusicBoxTile.MapEntry: Catastrophic Fabrications Music Box Tile
+	EyeMusicBoxTile.MapEntry: Eye Music Box Tile
+	BeeMusicBoxTile.MapEntry: Bee Music Box Tile
+	CultistMusicBoxTile.MapEntry: Cultist Music Box Tile
+	GolemMusicBoxTile.MapEntry: Golem Music Box Tile
+	ProphecyMusicBoxTile.MapEntry: Prophecy Music Box Tile
+	MenuMusicBoxTile.MapEntry: Menu Music Box Tile
+}
+
+NPCs: {
+	LittleCat: {
+		Bestiary: Olvidaste darle de comer, ahora enfréntate a la ira del Gatito Gris Demoníaco
+		Name: Pequeño Gato Gris Demoníaco
+		DisplayName: Pequeño Gato Gris Demoníaco
+	}
+}
+
+KeyBindName: {
+	SubspaceBoostHotkey: Tecla de Potenciacion del Subespacio
+	ItemAbility: Habilidad de objeto
+}
+
+Keybinds: {
+	Mods: {
+		InfernalEclipseAPI: {
+			KeyBindName: {
+				SubspaceBoostHotkey.DisplayName: Tecla de Potenciacion del Subespacio
+				ItemAbility.DisplayName: Habilidad de Objeto
+			}
+		}
+	}
+}
+
+Events: {
+	//Texto secuencial al final de Boss Rush nivel 5
+	BossRushTierFiveEndText_1: Hemos llegado al final, Terrariano
+	BossRushTierFiveEndText_2: Lo único que se interpone entre tú y el final de esta prueba son los dioses que son y que alguna vez fueron dioses de este mundo
+	BossRushTierFiveEndText_3: Muéstrame la fuerza de alguien que no tiene nada que perder ahora. No flaquees ahora
+}
